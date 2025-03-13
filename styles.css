@@ -1,0 +1,395 @@
+/* Custom Styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Font similar to the example */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 1rem 0;
+  background-color: #000; /* Dark background for navbar */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  margin-left: 1rem;
+  color: #fff; /* White link text for navbar */
+}
+
+.nav-link.active {
+  border: 2px solid #a1ff00; /* Change color to desired green */
+  border-radius: 5px; /* Optional: rounded corners */
+  padding: 4px 12px; /* Add padding to prevent overlapping */
+  transition: border-color 0.2s ease-in-out; /* Optional: smooth transition */
+}
+
+/* Optional: Enhance the green border with a box-shadow */
+.nav-link.active:hover {
+  border-color: #76d700; /* Slightly darker or lighter shade */
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 150px 0;
+  background: linear-gradient(#000, #000);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+
+/* Main Hero Section (specific page styles) */
+.contact-hero-section, .services-hero-section, .about-hero-section {
+  padding: 100px 0;
+  background: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.hero-section h1 {
+  font-size: 2.8rem; /* Resize according to design */
+  font-weight: bold;
+  color:#a1ff00
+}
+ .contact-hero-section h1, .services-hero-section h1, .about-hero-section h1 {
+  font-size: 2.8rem; /* Resize according to design */
+  font-weight: bold;
+}
+
+
+.hero-section p, .contact-hero-section .lead {
+  font-size: 1.25rem;
+}
+
+.hero-section .btn, .contact-hero-section .btn {
+  background-color: transparent;
+  border: 4px solid #fff;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 0.75rem 2rem;
+}
+
+/* Services Section */
+.services-section, .services-list {
+  padding: 100px 0;
+  background-color: #000; /* Darker background */
+}
+
+.services-section h2, .services-list h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #000; /*  for titles */
+}
+
+.services-section .card, .services-list .card {
+  transition: transform 0.3s;
+  background-color: #000; /* Slightly dark card background */
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  color: #fff;
+}
+
+.services-section .card:hover, .services-list .card:hover {
+  transform: translateY(-10px);
+}
+
+.services-section .card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.services-section .card-body {
+  padding: 1.5rem;
+}
+
+.services-section .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.services-section .card-text {
+  font-size: 1rem;
+  color: #fff;
+}
+
+
+/* Industries Section */
+.industries-section {
+  padding: 100px 0;
+  background-color: #000; /* Dark background */
+}
+
+.industries-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: #fff; /* White text for title */
+}
+
+.industries-section i {
+  color: #a1ff00; /* Green icon color */
+  margin-bottom: 1rem;
+}
+
+.industries-section h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #a1ff00; /* Green text for subtitle */
+}
+
+/* Technologies Section */
+.technologies-section {
+  padding: 100px 0;
+  background-color: #fff; /* Match the background with Industries Section */
+}
+
+.technologies-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: #000; /* White text for title */
+}
+
+.technologies-section i {
+  color: #000; /* Green icon color */
+  margin-bottom: 1rem;
+}
+
+.technologies-section h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #000; /* Green text for subtitle */
+}
+
+
+/* Services Page Section */
+.services-hero-section, .services-list {
+  padding: 100px 0;
+  background-color: #000; /* Darker background */
+}
+
+.services-hero-section h2, .services-list h2 {
+  font-size: 2rem;
+  font-weight: bold;
+
+  text-align: center;
+  color: #000; /* White for titles */
+}
+
+.services-hero-section .card, .services-list .card {
+  transition: transform 0.3s;
+  background-color: #000; /* Slightly dark card background */
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  color: #fff;
+}
+
+.services-hero-section .card:hover, .services-list .card:hover {
+  transform: translateY(-10px);
+}
+
+.services-hero-section .card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.services-hero-section .card-body {
+  padding: 1.5rem;
+}
+
+.services-hero-section .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.services-hero-section .card-text {
+  font-size: 1rem;
+  color: #fff;
+}
+
+
+/* About Section Specific Styles */
+.about-hero-section {
+  padding: 100px 0;
+  background-color: #000; /* Background color similar to example */
+}
+
+.about-hero-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.about-hero-section p {
+  font-size: 1.1rem;
+  color: #fff; /* Slightly lighter text color */
+  line-height: 1.8;
+}
+
+.about-hero-section img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* Contact Page Specific Styles */
+.contact-hero-section {
+  padding: 150px 0;
+  background: #000; /* Make the background dark */
+  background-image: url('https://images.unsplash.com/photo-1542744166-8e0eeb427b20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+.contact-hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #a1ff00;
+}
+
+.contact-hero-section .lead {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #bbb; /* Lighter text for contrast */
+}
+
+.contact-hero-section a {
+  color: #a1ff00;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+/* Darken Contact Form Section */
+.contact-form {
+  background-color: #101010; /* Dark background for form section */
+  padding: 50px 0;
+}
+
+.contact-form .card {
+  background-color: #202020; /* Darken the card background */
+  border: none;
+  padding: 30px;
+}
+
+.contact-form .form-label {
+  font-weight: bold;
+  color: #fff; /* White text for labels */
+}
+
+.contact-form .form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  box-shadow: none;
+  background-color: transparent;
+  color: #fff; /* White text input */
+}
+
+.contact-form .btn-primary {
+  background-color: transparent;
+  border: 2px solid #a1ff00; /* Highlight color for button border */
+  color: #fff;
+}
+
+/* Location Contact Form Section */
+
+.locations h2 {
+  color: #a1ff00; /* Title color */
+  font-weight: bold;
+}
+
+.loccard {
+  border-left: 5px solid #a1ff00; /* Green border */
+  transition: transform 0.2s;
+}
+
+.loccard:hover {
+  transform: translateY(-10px);
+}
+
+.loccard-body .loccard-title {
+  font-size: 1.25rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.loccard-body .loccard-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.bi-telephone:before {
+  content: '\260E'; /* Unicode for phone icon */
+}
+
+.bi-envelope:before {
+  content: '\2709'; /* Unicode for envelope icon */
+}
+
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.9rem
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+
+
+
+.footer h5 {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.footer-divider {
+  border-top: 1px solid #000;
+  margin: 20px 0;
+}
+
+.social-icon {
+  font-size: 1.2rem;
+}
+
+.social-icon:hover {
+  color: #a1ff00; /* Hover effect */
+}
+
+.footer a {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer a:hover {
+  color: #a1ff00; /* Hover effect */
+}
